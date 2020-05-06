@@ -1,0 +1,49 @@
+header#mainHeader {
+    height: 60px;
+    width: 109%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0%;
+    margin-right: 8%;
+    z-index: 1;
+}
+
+div .brand a {
+    text-decoration: none;
+    outline: none;
+    padding: 18px;
+    color: #D8D8D8;
+    text-decoration: none;
+}
+
+.brand text:hover {
+    color: #04D361;
+}
+
+.brand {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #D8D8D8;
+    font-family: Muli;
+}
+
+img#menuButton {
+    width: 20vh;
+    height: 13%;
+    margin-left: 55px;
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+    .navBar {
+        
+    }
+}
